@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+/* Heading Bar */
+.heading {
+    background-color: #e16aa7;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    width: 60%;
+    margin: 40px auto;
+    font-size: 22px;
+}
+
+/* Plans Layout */
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+/* Card Styling */
+.card {
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+/* Price */
+.price {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Plan Name */
+.plan-name {
+    font-size: 22px;
+    margin: 10px 0 20px;
+    font-weight: bold;
+}
+
+/* Feature List */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Purple Tick Icon */
+.fa-check-circle {
+    color: #a855f7;
+    margin-right: 8px;
+}
